@@ -22,9 +22,9 @@
             ]
           },
           {
-            "group": "Essentials",
+            "group": "AI Models",
             "pages": [
-              "essentials/markdown",
+              "AI Models/Image Text Detection",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
