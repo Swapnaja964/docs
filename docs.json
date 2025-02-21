@@ -25,7 +25,7 @@
             "group": "AI Models",
             "pages": [
               "AI Models/Image Text Detection",
-              "essentials/code",
+              "AI Models/Face Detection",
               "essentials/images",
               "essentials/settings",
               "essentials/navigation",
