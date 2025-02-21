@@ -27,9 +27,23 @@
               "AI Models/Image Text Detection",
               "AI Models/Face Detection",
               "AI Models/Compare Faces",
-              "essentials/settings",
+              "AI Models/Image Analysis",
               "essentials/navigation",
               "essentials/reusable-snippets"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "AI Models",
+        "groups": [
+          {
+            "group": "Image Analysis",
+            "pages": [
+              "AI Models/Image Text Detection",
+              "AI Models/Face Detection",
+              "AI Models/Compare Faces",
+              "AI Models/Image Analysis"
             ]
           }
         ]
