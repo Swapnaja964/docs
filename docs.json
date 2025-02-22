@@ -14,7 +14,7 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "AI Models",
+            "group": "Get Started",
             "pages": [
               "introduction",
               "quickstart",
@@ -22,13 +22,19 @@
             ]
           },
           {
-            "group": "Image Analysis",
+            "group": "AI Models",
             "pages": [
-              "Image Analysis/Face Detection",
-              "Image Analysis/Compare Faces",
-              "Image Analysis/Image Analysis",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "Image Generation",
+              {
+                "group":"Image Analysis",
+                "pages":[
+                  "Image Analysis/Face Detection",
+                  "Image Analysis/Compare Faces",
+                  "Image Analysis/Image Analysis",
+                  "essentials/navigation",
+                  "essentials/reusable-snippets"
+                ]
+              }
             ]
           }
         ]
