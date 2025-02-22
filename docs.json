@@ -24,6 +24,7 @@
           {
             "group": "AI Models",
             "pages": [
+              "Text Generation",
               "Image Generation",
               {
                 "group":"Image Analysis",
@@ -31,8 +32,22 @@
                   "Image Analysis/Face Detection",
                   "Image Analysis/Compare Faces",
                   "Image Analysis/Image Analysis",
-                  "essentials/navigation",
-                  "essentials/reusable-snippets"
+                  "Image Analysis/Image Text Detection"
+                ]
+              },
+              {
+                "group":"Text Extraction",
+                "pages":[
+                  "Text Extraction/Speech Text Extraction",
+                  "Text Extraction/PDF Extraction",
+                  "Text Extraction/Web Extraction"
+                ]
+              },
+              {
+                "group":"Content Moderation",
+                "pages":[
+                  "Content Moderation/Image Moderation",
+                  "Content Moderation/Text Moderation"
                 ]
               }
             ]
