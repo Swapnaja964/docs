@@ -24,26 +24,12 @@
           {
             "group": "AI Models",
             "pages": [
-              "AI Models/Image Text Detection",
-              "AI Models/Face Detection",
-              "AI Models/Compare Faces",
-              "AI Models/Image Analysis",
+              "AI Models/Image Analysis/Image Text Detection",
+              "AI Models/Image Analysis/Face Detection",
+              "AI Models/Image Analysis/Compare Faces",
+              "AI Models/Image Analysis/Image Analysis",
               "essentials/navigation",
               "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "AI Models",
-        "groups": [
-          {
-            "group": "Image Analysis",
-            "pages": [
-              "AI Models/Image Text Detection",
-              "AI Models/Face Detection",
-              "AI Models/Compare Faces",
-              "AI Models/Image Analysis"
             ]
           }
         ]
