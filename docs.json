@@ -29,27 +29,28 @@
               {
                 "group":"Image Analysis",
                 "pages":[
-                  "Image Analysis/Face Detection",
-                  "Image Analysis/Compare Faces",
-                  "Image Analysis/Image Analysis",
-                  "Image Analysis/Image Text Detection"
+                  "AI Models/Image Analysis/Face Detection",
+                  "AI Models/Image Analysis/Compare Faces",
+                  "AI Models/Image Analysis/Image Analysis",
+                  "AI Models/Image Analysis/Image Text Detection"
                 ]
               },
               {
                 "group":"Text Extraction",
                 "pages":[
-                  "Text Extraction/Speech Text Extraction",
-                  "Text Extraction/PDF Extraction",
-                  "Text Extraction/Web Extraction"
+                  "AI Models/Text Extraction/Speech Text Extraction",
+                  "AI Models/Text Extraction/PDF Extraction",
+                  "AI Models/Text Extraction/Web Extraction"
                 ]
               },
               {
                 "group":"Content Moderation",
                 "pages":[
-                  "Content Moderation/Image Moderation",
-                  "Content Moderation/Text Moderation"
+                  "AI Models/Content Moderation/Image Moderation",
+                  "AI Models/Content Moderation/Text Moderation"
                 ]
-              }
+              },
+              "Model Training"
             ]
           }
         ]
