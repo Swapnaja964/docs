@@ -24,7 +24,15 @@
           {
             "group": "AI Models",
             "pages": [
-              "Text Generation",
+              {
+                "group":"Text Generation",
+                "pages":[
+                  "AI Models/Text Generation/AiCon V4(latest)/Text Only Conversational",
+                  "AI Models/Image Analysis/Compare Faces",
+                  "AI Models/Image Analysis/Image Analysis",
+                  "AI Models/Image Analysis/Image Text Detection"
+                ]
+              },
               "Image Generation",
               {
                 "group":"Image Analysis",
