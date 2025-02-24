@@ -53,15 +53,12 @@ You have the option to either stream the response (`stream_data = true`) or wait
    ```
   </Tab>
   <Tab title="Without Streaming">
-
   *Benefit:* You receive the complete generated text in one go. Suitable for situations where you want to handle output generated
-
   *Example:*
   ```
-  var myHeaders = new Headers();
+    var myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
     myHeaders.append("Authorization", "Bearer sk-02e44d********");
-
     var raw = JSON.stringify({
    "question": "Your input prompt",
    "model": "aicon-v4-nano-160824",
@@ -70,18 +67,17 @@ You have the option to either stream the response (`stream_data = true`) or wait
    "training_data": "Add your training data or system messages",
    "response_type": "text",
     });
-
     var requestOptions = {
    method: 'POST',
    headers: myHeaders,
    body: raw,
    redirect: 'follow'
     };
-
     fetch("https://api.worqhat.com/api/ai/content/v4", requestOptions)
    .then(response => response.text())
    .then(result => console.log(result))
    .catch(error => console.log('error', error));
+ ```
   </Tab>
 </Tabs>
 
