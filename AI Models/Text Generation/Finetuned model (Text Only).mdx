@@ -15,6 +15,7 @@ WorqHat AiCon V4 Custom Model API allows you to generate text using only text in
 
 * `aicon-v4-nano-160824` **(finetuned included):** Ideal for quick and efficient text generation, especially when resources are limited.
 * `aicon-v4-large-160824` **(finetuned included):**  Our smartest and highest accuracy model, suitable for a wide range of text generation tasks, complex thoughts and reasoning along with mathematical solutions.
+* `aicon-v4-alpha-160824:` A better version of the `aion-v4-nano-160824` model which is trained on live data, providing up-to-date insights and knowledge. It's ideal for tasks that require real-time information, such as news analysis, market research, or staying informed on current events
 
 **Choose Your Response Style:**
 You have the option to either stream the response (`stream_data = true`) or wait for the entire result to be generated (`stream_data = false`).
@@ -88,6 +89,6 @@ fetch("https://api.worqhat.com/api/ai/content/v4/{modelType}/{modelId}", request
 * Modify the `prompt` to provide your text input.
 
 **Try out other Capabilities of the WorqHat API**
-* Build Multiturn COnversations or Chat Applications by having the model maintain history by default Text Only Conversational
+* Build Multiturn Conversations or Chat Applications by having the model maintain history by default Text Only Conversational
 * Generate text or code outputs from mutimodal inputs (including text, images, PDFs, video, and audio)Multimodal Input (Non-Streaming)
 * Fetch real world information and data using the Alpha Models(Text Only)
