@@ -24,16 +24,21 @@
           {
             "group": "AI Models",
             "pages": [
+              "Text Generation",
               {
-                "group":"Text Generation",
-                "pages":[
-                  "AI Models/Text Generation/Text Only Conversational",
-                  "AI Models/Text Generation/Multimodal Input Conversational",
-                  "AI Models/Text Generation/Alpha Models(Text Only)",
-                  "AI Models/Text Generation/Finetuned model (Text Only)",
-                  "AI Models/Text Generation/Finetuned model (Multimodal Input)",
-                  "AI Models/Text Generation/Search V3"
-                ]
+                "group": "AiCon V4",
+                "pages": [
+                  "AiCon V4/latest",
+                  "AiCon V4/multimodal-in-aiCon-v4",
+                  "AiCon V4/available-model-endpoints",
+                  "AiCon V4/supported-file-types",
+                  "AiCon V4/text-only-input",
+                  "AiCon V4/multimodal-input",
+                  "AiCon V4/text-only-conversational",
+                  "AiCon V4/alpha-model",
+                  "AiCon V4/finetuned-models"
+                ],
+                "group": "Search V3"
               },
               "Image Generation",
               {
