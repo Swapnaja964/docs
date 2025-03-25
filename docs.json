@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
+              "Quickstart1",
               "development"
             ]
           },
@@ -37,8 +37,7 @@
                   "AiCon V4/text-only-conversational",
                   "AiCon V4/alpha-model",
                   "AiCon V4/finetuned-models"
-                ],
-                "group": "Search V3"
+                ]
               },
               "Image Generation",
               {
@@ -66,6 +65,16 @@
                 ]
               },
               "Model Training"
+            ]
+          },
+          {
+            "group": "Polcies",
+            "pages": [
+              "Policies/Acceptable Use Policy",
+              "Policies/privacy policy",
+              "Policies/terms of services",
+              "Policies/Bugs Disclosure Policy",
+              "Policies/Data Usage Policy"
             ]
           }
         ]
